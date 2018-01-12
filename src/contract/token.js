@@ -3,7 +3,7 @@ import {provideWeb3, currentAccount} from './web3';
 
 let _cachedToken;
 let _cachedAddress;
-contractAddess=0xAdb41FCD3DF9FF681680203A074271D3b3Dae526;
+
 function _provideToken(web3, address) {
     if (_cachedToken && _cachedAddress === address) {
         return _cachedToken;
